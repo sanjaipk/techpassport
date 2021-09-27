@@ -2,8 +2,7 @@ name: deploy to brainfeaster
 
 on:
   push:
-    branches:
-      - 'master'
+    branches: [ master ]
   workflow_dispatch:
 jobs:
   build:
