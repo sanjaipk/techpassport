@@ -16,6 +16,6 @@ jobs:
           src_path: ./
           src_branch: proBuid
           dst_path: /techpass
-          dst_owner: brainfeaster
-          dst_repo_name: brainfeaster.github.io
+          dst_owner: sanjaipk
+          dst_repo_name: devopstestig
           username: sanjaipk
