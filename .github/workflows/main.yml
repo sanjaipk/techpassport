@@ -12,10 +12,10 @@ jobs:
       - name: Copy
         uses: andstor/copycat-action@v3
         with:
-          personal_token: ${{ secrets.API_GITHUB_TOKEN }}
+          personal_token: ${{ secrets.API_TOKEN_GITHUB }}
           src_path: ./
           src_branch: proBuid
           dst_path: /techpass
-          dst_owner: sanjaipk
-          dst_repo_name: devopstestig
+          dst_owner: brainfeaster
+          dst_repo_name: brainfeaster.github.io
           username: sanjaipk
