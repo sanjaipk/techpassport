@@ -45,7 +45,7 @@ jobs:
       - name: Copy
         uses: andstor/copycat-action@v3
         with:
-          personal_token: ${{ secrets.API_TOKEN_GITHUB }}
+          personal_token: ${{ secrets.GITHUB_TOKEN }}
           src_path: ./
           src_branch: proBuid
           dst_path: /techpass
