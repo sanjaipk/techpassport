@@ -40,5 +40,14 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH: brainfeaster.github.io/master
+          BRANCH: proBuid
           FOLDER: deploy_dist
+      - name: Copy
+        uses: andstor/copycat-action@v3
+        with:
+          personal_token: ${{ secrets.API_TOKEN_GITHUB }}
+          src_path: ./
+          src_branch: proBuid
+          dst_path: /techpass
+          dst_owner: sanjaipk
+          dst_repo_name: brainfeaster.github.io
